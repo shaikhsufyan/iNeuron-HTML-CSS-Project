@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(247, 241, 241);
+}
+ 
+#navbarMonstera{
+    display: flex;
+     
+}
+#navFirst{
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    width: 80px;
+    height: 30px;
+    
+
+}
+#navMid {
+    display: flex;
+    
+  position: relative;
+  top: 35px;
+  left: 27%;
+  font-family: 'Lato', sans-serif;
+}
+ 
+h4{
+    margin: 32px;
+}
+#navEnd{
+    display: flex;
+    margin: 20px;
+    position: absolute;
+    left: 78%;
+}
+#navEnd img{
+    margin: 20px;
+    width: 24px;
+    height: 24px;
+}
+#imgMain{
+    width: 500px;
+    height: 490px;
+    position: absolute;
+    left: 63%;
+    top: 20%;
+}
+ 
+ul {
+    font-size: 20px;
+    position:  absolute;
+    top: 170px;
+    left: 7%;
+     
+
+    
+}
+ 
+ 
+#monstera{
+   
+    font-size: 90px;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+#midWholePart12{
+     border: 1px solid gray;
+     
+     width: 230px;
+     height: 50px;
+     /* background-color:  rgb(59, 88, 59); */
+     position: absolute;
+     top: 70%;
+     left: 7%;
+     text-align: center;
+     border-radius: 25px;
+     color: white;
+     border: none;
+      
+     
+}
+ 
+#midWholePart12 div h1{
+    /* text-align: center;
+    background-color: rgb(49, 107, 49);
+    border-radius: 28px;
+    width: 240px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px; */
+     
+    background-color:  rgb(59, 88, 59);
+    border-radius: 25px;
+    font-weight: 100;
+    font-size: 36px;
+     
+
+
+ 
+}
+#midWholePart122 img{
+    display: flex;
+    margin-left: 88%;
+    margin-top: -14%;
+    background-color:  rgb(59, 88, 59);
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+     
+
+}
+#midWholePart122{
+    background-color:  rgb(59, 88, 59);
+    border-radius:  20px;
+}
+#midWholePart13{
+    display: flex;
+    margin: 20px;
+    
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-family: 'Lato', sans-serif;
+
+}
+ .midWholePart13Parts{
+    display: flex;
+    /* width: 50px;
+    height: 50px; */
+}
+h4,p{
+    position: relative;
+    top: -25px;
+}
+p{
+    font-size: 14px;
+}
+ #feeding{
+    width: 60px;
+    height: 60px;
+}
+#light{
+    width: 39px;
+    height: 50px;
+}
+#care{
+    width: 44px;
+    height: 50px;
+}
+.midWholePart13Parts p{
+    margin-top: -30px;
+}

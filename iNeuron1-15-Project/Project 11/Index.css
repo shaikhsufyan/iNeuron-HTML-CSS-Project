@@ -1,0 +1,537 @@
+*{
+     
+    font-family: 'Mulish', sans-serif;
+    margin: 0%;
+    padding: 0%;
+     
+}
+
+.main-div nav{
+    
+    display: flex;
+     
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+     
+     
+}
+nav ul{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+     
+}
+nav ul li{
+    margin: 15px;
+    list-style: none;
+    color: rgb(129, 118, 118);
+    font-weight: 600;
+}
+.navbar .logo img{
+    width: 90px;
+    height: 32px;
+    margin-top: 30px;
+    margin-right: 150px;
+     
+}
+.navbar .nav-btn button{
+    margin-top: 25px;
+    margin-left: -50px;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 37px;
+    background-color: white;
+    color: rgb(99, 173, 241);
+    border: 2px solid rgb(99, 173, 241);
+    font-weight: 600;
+    border-radius: 3px;
+
+    
+}
+.hosting .host1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.host1 img{
+    width: 500px;
+    height: 500px;
+}
+.host1 .host{
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.host h1{
+    font-size: 43px;
+    font-family: 'Lato', sans-serif;
+}
+.host p{
+    margin-top: 20px;
+    color: rgb(155, 143, 143);
+}
+.host button{
+    margin-top: 30px;
+     width: 180px;
+     height: 40px;
+     background-color:  rgb(46, 104, 228);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-weight: 600;
+     font-size: 15px;
+     box-shadow: 0px 4px 4px 0  rgb(207, 195, 195);
+}
+.hosting .host2{
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.host2 img {
+    width: 500px;
+    height: 500px;
+}
+.host2 .hosting{
+     
+     
+    margin: 100px;
+}
+.host2 .hosting h2{
+    font-size: 43px;
+    font-family: 'Lato', sans-serif;
+}
+.hosting .para{
+    margin-top: 20px;
+    color: rgb(155, 143, 143);
+
+}
+.hosting button{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    background-color:  rgb(46, 104, 228);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px 0  rgb(207, 195, 195);
+
+}
+.technical .support{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.technical .support img{
+    width: 500px;
+    height: 500px;
+}
+.support .support2{
+    margin-right: 80px;
+    margin-top: 120px;
+}
+.support2 h1{
+    font-size: 43px;
+    font-family: 'Lato', sans-serif;
+    flex-wrap: wrap;
+
+}
+.support2 p{
+    margin-top: 20px;
+    color: rgb(155, 143, 143);
+    flex-wrap: wrap;
+
+
+
+
+}
+.support2 button{
+    margin-top: 30px;
+    width: 180px;
+    height: 40px;
+    background-color:  rgb(46, 104, 228);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px 0  rgb(207, 195, 195);
+}
+
+
+
+
+/* We give CSS to ::: Service provide heading */
+
+
+
+.tools .service{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    
+    
+}
+.tools .service h1{
+    margin: 40px;
+     
+    font-family: 'Lato', sans-serif;
+    font-size: 43px;
+}
+.service p{
+    margin: 50px;
+    
+    color: rgb(155, 143, 143);
+}
+
+/* give CSS to cards */
+
+
+.web-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.web-card .card{
+    margin: 40px;
+}
+.card h3{
+    font-family: 'Lato', sans-serif;
+    
+}
+.card p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(155, 143, 143);
+}
+
+.detail-card{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.detail-card h3{
+    margin-top: 10px;
+}
+.detail-card .card{
+    margin: 40px;
+    
+}
+
+.detail-card .card p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(155, 143, 143);
+}
+.card  i{
+     color: rgb(21, 102, 252);
+      font-size: 50px;
+     
+     
+}
+
+/* Card CSS */
+
+
+.price-card{
+    background-color: rgb(20, 138, 248);
+    width: 100%;
+    height: 64%;
+    flex-wrap: wrap;
+    
+}
+.price-card .main-heading h1{
+    text-align: center;
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+    color: white;
+    flex-wrap: wrap;
+
+}
+.price-card .three-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.three-card .first-card{
+    margin: 20px;
+    width: 280px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    /* text-align: center; */
+    
+}
+
+.first-card h3{
+    font-family: 'Lato', sans-serif;
+    
+}
+.first-card ul{
+    margin-top: 13%;
+}
+.first-card li{
+    margin: 15px;
+    list-style: none;
+    
+}
+.first-card h3{
+    margin: 20px;
+}
+.first-card p{
+    margin: 20px;
+    color: rgb(121, 106, 106);
+}
+.first-card h1{
+     text-align: center;
+     margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+
+}
+.first-card .time{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(121, 106, 106);
+
+}
+.first-card  button{
+     position: relative;
+     left: 18%;
+     top: 7%;
+     align-content: center;
+     justify-content: center;
+background-color: white;
+font-weight: 600;
+font-size: 16px;
+    width: 180px;
+    height: 36px;
+  text-align: center;
+ border: 1px solid  rgb(46, 104, 228);
+  color: rgb(46, 79, 228);
+  border-radius: 4px;
+  
+}
+
+/* we give css for Mid div  */
+
+.first-card .mid-div{
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    height: 105px;
+    margin-top: -20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+.mid-div h3{
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.mid-div p{
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+}
+.first-card .center-btn button{
+    background-color: rgb(46, 104, 228) ;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 4px 0 rgb(165, 156, 156);
+}
+ .first-card i{
+    color: rgb(91, 238, 135);
+    margin: 2px;
+ }
+ .customer{
+    flex-wrap: wrap;
+ }
+ .customer .customer-div{
+     text-align: center;
+     margin-top: 200px;
+     
+
+     
+ }
+ .customer-div h1{
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+
+ }
+ .customer-div p{
+    color: gray;
+ }
+  .customer .container-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+ }
+.customer .cards{
+    margin: 30px;
+    width: 420px;
+    height: 210px;
+    box-shadow: 0 3px 3px 2px rgb(231, 226, 226);
+    border-radius: 6px;
+}
+.customer span{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+ .cards p{
+    margin: 20px;
+ }
+span .ceo{
+    font-size: 13px;
+    margin: 7px;
+    color: gray;
+}
+span h1{
+    font-size: 18px;
+    margin: 10px;
+}
+span img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.customer .container-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+ }
+ .worry{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 260px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgb(0, 102, 255),rgb(0, 174, 255));
+ }
+ .worry h1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+     margin-top: 40px;
+      
+ }
+ 
+ .worry p{
+     
+    color: white;
+     margin-top: 10px;
+     flex-wrap: wrap;
+      
+ }
+
+ .worry button{
+    
+    margin: 40px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(218, 201, 201);
+    border-radius: 5px;
+    background: rgb(0, 110, 255) ;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+     
+ }
+ .worry button:hover{
+    background-color: white;
+    color: rgb(0, 140, 255);
+    border: none;
+    cursor: pointer;
+ }
+ .footer{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+ }
+ .footer ul{
+    margin: 54px;
+    list-style: none;
+    flex-wrap: wrap;
+ }
+ .footer ul li{
+   margin: 5px;
+   color: rgb(160, 149, 149);
+ }
+ .footer ul li img{
+    width: 88px;
+    height: 28px;
+    
+ }
+ .footer ul i{
+    color: rgb(41, 149, 238);
+     font-size: 30px;
+     margin: 3px;
+ }
+ .footer ul  P{
+    color: rgb(180, 165, 165);
+ }
+
+
+ @media (max-width:600px){
+    .logo img{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 40%;
+    }
+     .navbar-list{
+        position: relative;
+        top: 70px;
+        left: 5%;
+        /* flex-wrap: wrap; */
+        flex: column;
+     }
+     .nav-btn button{
+        
+        position: relative;
+        top: 45px;
+        left: 22px;
+        flex: column;
+         
+     }
+     .host1{
+         
+        position: relative;
+        left:10%;
+    }
+    .technical{
+         
+        position: relative;
+        left:10%;
+    }
+      
+ }
+ @media (min-width:600px) and (max-width:1050px){
+    .navbar{
+        display: flex;
+    }
+    .navbar button{
+        position: relative;
+         left: 20px;
+    }
+     
+     
+ }

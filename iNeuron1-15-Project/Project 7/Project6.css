@@ -1,0 +1,135 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+ }
+ ul{
+    display: flex;
+    list-style: none;
+ }
+ ul li{
+    margin-inline: 35px;
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ .logo{
+    width: 100px;
+    margin-left: 10px;
+ }
+ @media (max-width:1000px){
+    ul li{
+        display: none;
+    }
+     .logo{
+        width: 90px;
+     }
+     .svg-img{
+        width: 220px;
+     }
+    
+ }
+
+ .left-section{
+    text-align: center;
+    margin-top: 40px;
+ }
+
+ .sub-headlines{
+    margin-left: 20px;
+    /* margin-top: 40px; */
+ }
+ .sub-headline{
+    margin-top: 10px;
+ }
+ .left-section h1{
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: sans-serif;
+ }
+ .sub-headline img{
+    background-color: tomato;
+    border-radius: 20px;
+    width: 15px;
+     
+ }
+ .intro-section p{
+    font-size: 20px;
+    margin-top: 30px;
+ }
+ .action-btns button{
+    width: 150px;
+    height: 40px;
+    background-color: tomato;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 110px;
+ }
+ .headphone-div .head{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+ }
+ .headphone-div .discount{
+    width: 90px;
+    position: relative;
+    top: 320px;
+    left: 7px;
+     
+ }
+ .headphone-div .discount-content{
+    position: relative;
+    top: 245px;
+    left: 18px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+
+ }
+ .right-section button{
+    
+    width: 150px;
+    height: 40px;
+    background-color: tomato;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 60px;
+ }
+
+ @media (min-width:800px){
+    .intro-section{
+        display: flex;
+        justify-content: space-between;
+         
+    }
+    .headphone-div .head{
+        
+        margin-top: -130px;
+        width: 400px;
+        margin-right:40px ;
+     }
+     .right-section button{
+        margin-top: 20px;
+     }
+     .sub-headlines{
+        font-size: 20px;
+     }
+     .left-section h1{
+        font-size: 55px;
+     }
+ }
+ @media (max-width:400px){
+    .right-section button{
+        margin-left: 70px;
+    }
+ }
